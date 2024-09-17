@@ -8,6 +8,8 @@ import { LoginComponent } from "./components/login/login.component";
 import { SignupComponent } from "./components/signup/signup.component";
 import { HomepageComponent } from "./components/homepage/homepage.component";
 import { LandingpageComponent } from "./components/landingpage/landingpage.component";
+import { FormsModule } from "@angular/forms";
+
 
 
 const routes: Routes = [
@@ -23,6 +25,7 @@ const routes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     RouterModule.forRoot(routes),
+    FormsModule,
 ],
 
   declarations: [
